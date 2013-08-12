@@ -1,6 +1,6 @@
 ---
 layout: page
-title: joe's page
+title: joe's
 tagline: random notes & projects
 ---
 {% include JB/setup %}
