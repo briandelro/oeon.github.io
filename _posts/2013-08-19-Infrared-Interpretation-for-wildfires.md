@@ -32,7 +32,7 @@ Orders come in for the various [active incidents](http://activefiremaps.fs.fed.u
 
 Infrared Interpration: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product for wildfire incident managers.
 
-also, you'll find me mapping fires at night as http://twitter.com/3400maps
+also, you'll find me mapping fires at night as [@3400maps](http://twitter.com/3400maps)
 
 [0]: http://www.nifc.gov/fireInfo/fireinfo_prepLevels.html
 
