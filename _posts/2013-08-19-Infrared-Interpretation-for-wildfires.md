@@ -8,7 +8,7 @@ tags: "infrared-interpretation, wildfire"
 
 ![IR](http://farm4.staticflickr.com/3799/9548967970_02f185d5de.jpg)
 
-**tl;dr** *Infrared Interpration: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product for wildfire incident managers.*
+**tl;dr** *Infrared Interpration: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product to wildfire incident managers.*
 
 I've been on a heck of a run, doing Infrared Interpreter assignments this month - 14 days...well, make that **nights**. Most days average around 16 hours long..so bear with my wackiness, I'll try to catch-up on some sleep! [IRIN](http://www.nationalfiretraining.net/catalog/detail/code/S443) is a position within the Incident Command System (ICS) for wildfire incidents. I was exposed to it as a [GIS Specialist for Incident Management](http://www.nationalfiretraining.net/catalog/detail/code/S341) (GISS) and attracted to how it combines rapid intelligence and mapping - and all their surrounding associated technologies.
 
@@ -28,7 +28,7 @@ Acronyms they don't teach you in the bike lane
 
 Orders come in for the various [active incidents](http://activefiremaps.fs.fed.us/) ongoing - a flight plan is developed for the operational assests available to NIROPS - and IRIN's are assigned to one or more fires.
 
-My workflow as an IRIN: download support data from the incident including most recent fire perimeter, fire line types, organizational work assignment locations (Divisions, Branches, etc.), review the weather. Follwing the airplanes with [AFF](https://www.aff.gov/) and the pilots via Twitter - I know when my fire has been flown and [the data](http://nirops.fs.fed.us/pages/imagery) is complete for download & interpretation. I generate a few .PDF map products, 4 shapefiles: isolated heat points & scattered/intense and heat perimeter polygons, a .KMZ and a mission log.
+*My workflow as an IRIN*: download support data from the incident including most recent fire perimeter, fire line types, organizational work assignment locations (Divisions, Branches, etc.), review the weather. Follwing the airplanes with [AFF](https://www.aff.gov/) and the pilots via Twitter - I know when my fire has been flown and [the data](http://nirops.fs.fed.us/pages/imagery) is complete for download & interpretation. Based upon the data, I interpret and adjust the previously know heat perimeter and categorize various types of heat. I generate a few .PDF map products, 4 shapefiles: isolated heat points & scattered/intense and heat perimeter polygons, a .KMZ and a mission log - and return the goods to the incident.
 
 Infrared Interpration: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product for wildfire incident managers.
 
