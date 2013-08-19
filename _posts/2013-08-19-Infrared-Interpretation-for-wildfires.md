@@ -12,12 +12,12 @@ I've been on a heck of a run, doing Infrared Interpreter assignments this month 
 
 When an incident (typically wildfire) needs a resource (like IRIN), the resource status and availability is queried/ordered in [ROSS](http://ross.nwcg.gov/aboutross.html). Then, under direction of the National Infrared Operations [NIROPS](http://nirops.fs.fed.us/pages/about) Unit - IRIN's around the Western U.S. work by coordination of a National Coordinator. I pilfered [this](http://www.wrightwoodfsc.com/StationFire/NIROPS_Poster_Jan2008.pdf) description:
 
-> At PL 4, a National IR Coordinator takes over the infrared operations from
-the aviation desk at NICC. This includes receiving the scanner order 
-requests, making sure there are IRINs assigned to each incident, prioritizing 
-the flights according to NMAC, planning the missions with the crews, flight
-following, trouble-shooting along the flight, remote data uploads, acquiring
-other resources and reporting accomplishments back to NICC.  
+>At PL 4, a National IR Coordinator takes over the infrared operations from
+>the aviation desk at NICC. This includes receiving the scanner order 
+>requests, making sure there are IRINs assigned to each incident, prioritizing 
+>the flights according to NMAC, planning the missions with the crews, flight
+>following, trouble-shooting along the flight, remote data uploads, acquiring
+>other resources and reporting accomplishments back to NICC.  
 
 Acronyms they don't teach you in the bike lane
  
