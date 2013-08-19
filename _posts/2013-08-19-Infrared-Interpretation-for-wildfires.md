@@ -8,7 +8,9 @@ tags: "infrared-interpretation, wildfire"
 
 ![IR](http://farm4.staticflickr.com/3799/9548967970_02f185d5de.jpg)
 
-I've been on a heck of a run, doing Infrared Interpreter assignments this month - 14 days...well, make that **nights**. [IRIN](http://www.nationalfiretraining.net/catalog/detail/code/S443) is a position within the Incident Command System (ICS) for wildfire incidents. I was exposed to it as a [GIS Specialist for Incident Management](http://www.nationalfiretraining.net/catalog/detail/code/S341) (GISS) and attracted to how it combines rapid intelligence and mapping - and all their surrounding associated technologies.
+**tl;dr** *Infrared Interpration: a rapid and very effective use of technology to gather data & intelligence for delivery of a quality product for wildfire incident managers.*
+
+I've been on a heck of a run, doing Infrared Interpreter assignments this month - 14 days...well, make that **nights**. Most days average around 16 hours long..so bear with my wackiness, I'll try to catch-up on some sleep! [IRIN](http://www.nationalfiretraining.net/catalog/detail/code/S443) is a position within the Incident Command System (ICS) for wildfire incidents. I was exposed to it as a [GIS Specialist for Incident Management](http://www.nationalfiretraining.net/catalog/detail/code/S341) (GISS) and attracted to how it combines rapid intelligence and mapping - and all their surrounding associated technologies.
 
 When an incident (typically wildfire) needs a resource (like IRIN), the resource status and availability is queried/ordered in [ROSS](http://ross.nwcg.gov/aboutross.html). Then, under direction of the National Infrared Operations [NIROPS](http://nirops.fs.fed.us/pages/about) Unit - IRIN's around the Western U.S. work by coordination of a National Coordinator. I pilfered [this](http://www.wrightwoodfsc.com/StationFire/NIROPS_Poster_Jan2008.pdf) description:
 
