@@ -7,7 +7,6 @@ tags: "fire, wildfire, mapping, night-shift, infrared, interpretation"
 ---
 
 
-## Lately, as IRIN
 
 I've been on a heck of a run, doing Infrared Interpreter assignments this month - 14 days...well, make that **nights**. [IRIN](http://www.nationalfiretraining.net/catalog/detail/code/S443) is a position within the Incident Command System (ICS) for wildfire incidents. I was exposed to it as a [GIS Specialist for Incident Management](http://www.nationalfiretraining.net/catalog/detail/code/S341) (GISS) and attracted to how it combines rapid intelligence and mapping - and all their surrounding associated technologies.
 
