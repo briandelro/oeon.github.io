@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: post
 category: "writing, work"
 tagline: "night-shift zombie wildfire digitizing"
