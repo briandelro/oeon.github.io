@@ -1,16 +1,100 @@
----
-layout: default
----
-{% include JB/setup %}
-{% include themes/twitter/page.html %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>about Joe</title>
+
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/css/bootstrap.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0-rc1/js/bootstrap.min.js"></script>
+
+    <!-- Custom styles for this template -->
+
+    <style type="text/css">
+
+        /* Sticky footer styles
+        -------------------------------------------------- */
+        @import url(http://fonts.googleapis.com/css?family=Ubuntu);
+
+        html,
+
+        body {
+          font-family: "Ubuntu", Tahoma, "Helvetica Neue", Helvetica, Arial, sans-serif;
+          font-size: 14px;
+          line-height: 1.428571429;
+          color: #333333;
+          background-color: #ffffff;
+          height: 100%;
+          /* The html and body elements cannot have any padding or margin. */
+        }
+
+        /* Wrapper for page content to push down footer */
+        #wrap {
+          min-height: 100%;
+          height: auto !important;
+          height: 100%;
+          /* Negative indent footer by its height */
+          margin: 0 auto -60px;
+          /* Pad bottom by footer height */
+          padding: 0 0 60px;
+        }
+
+        /* Set the fixed height of the footer here */
+        #footer {
+          height: 60px;
+          background-color: #f5f5f5;
+        }
+
+        /* Lastly, apply responsive CSS fixes as necessary */
+        @media (max-width: 767px) {
+          #footer {
+            margin-left: -20px;
+            margin-right: -20px;
+            padding-left: 20px;
+            padding-right: 20px;
+          }
+        }
+
+        /* Custom page CSS
+        -------------------------------------------------- */
+        /* Not required for template or sticky footer method. */
+
+        .container {
+          width: auto;
+          max-width: 680px;
+          padding: 0 15px;
+        }
+        .container .credit {
+          margin: 20px 0;
+        }
+
+    </style>
+
+  </head>
+
+  <body>
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
       <!-- Begin page content -->
-      <div class="container-narrow">
+      <div class="container">
+        <div class="page-header">
+          <h1>about Joe</h1>
+        </div>
+        <!-- <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS.</p> -->
         <p>My experience began with wildland firefighting, which led me to Forestry and Natural Resources (B.S. Cal Poly SLO, 2006).</p>
         <p>I discovered Geographic Information Systems (GIS, official minor) during my undergraduate and decided to make it my specialization. Also being a student of fire, I enjoy wildland fire behavior modeling. With an appreciation for all types of applications of GIS, I have been exposed to various offerings from Free and Open Source Software for Geospatial (FOSS4G), and currently enjoy learning these toolkits - as they apply to mapping, disaster/emergency response and analysis.</p>
         <p>Recent highlights of my professional experience include my assignment in Florida to assist with the Deepwater Horizon oilspill and my successful completion of S-495 Geospatial Fire Analysis, Interpretation and Application at the National Advanced Fire and Resource Institute. My goals are to become more proficient with web, databases, programming - related to my career focus.</p>
       </div>
-      <div class="container-narrow">
-        <h4>specialties</h4>
+      <div class="container">
+        <h3>Specialties</h3>
           <li>Free and Open Source Software for Geospatial (FOSS4G)</li>
           <li>GIS</li>
           <li>OpenStreetMap</li>
@@ -20,3 +104,13 @@ layout: default
           <br>
           <a href="http://www.flickr.com/photos/j03lar50n/6945838192/" align="center" title="NoPPE by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7071/6945838192_3b225c3729.jpg" width="369" height="453" alt="NoPPE"></a>
       </div>
+    </div>
+
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit"><a href="http://joelarson.com">Home</a></p>
+      </div>
+    </div>
+
+  </body>
+</html>
