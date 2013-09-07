@@ -19,8 +19,8 @@
 var map = L.map('map').setView([37.2, -118], 6);
 
 var baseMaps = {
-    'Base Map': L.mapbox.tileLayer('geoslo.map-as03yv28').addTo(map),
-    'Gray Base': L.mapbox.tileLayer('geoslo.map-cma6j2y3')
+    'Base Map': L.mapbox.tileLayer('geoslo.map-cma6j2y3').addTo(map),
+    'Color Terrain': L.mapbox.tileLayer('geoslo.map-as03yv28')
 };
 
 var overlayMaps = {
@@ -28,12 +28,14 @@ var overlayMaps = {
     '70\'s': L.mapbox.tileLayer('geoslo.firehist2012_70s'),
     '80\'s': L.mapbox.tileLayer('geoslo.firehist2012_80s'),
     '90\'s': L.mapbox.tileLayer('geoslo.firehist2012_90s'),
-    '2000\'s': L.mapbox.tileLayer('geoslo.firehist2012_2000s')
+    '2000\'s': L.mapbox.tileLayer('geoslo.firehist2012_2000s'),
+    'all': L.mapbox.tileLayer('geoslo.firehist2012')
 };
 
 L.control.layers(baseMaps, overlayMaps,{
     collapsed: false
 }).addTo(map);
+
 </script>
 </body>
 </html>
