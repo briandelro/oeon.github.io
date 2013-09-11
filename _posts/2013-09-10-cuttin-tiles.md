@@ -7,7 +7,7 @@ tags:
   - gdal
   - gdal2tiles
   - vrt
-published: true
+
 ---
 
 {% include JB/setup %}
@@ -28,8 +28,11 @@ My local County acquired countywide 1-foot imagery. At work, we are often editin
 
 4. `gdal2tiles.py -v mergewarp.vrt tiles/` many options, see the [docs](http://www.gdal.org/gdal2tiles.html). You'll want to use `-e` if you need to stop/resume a job.
 
-<blockquote class="twitter-tweet"><p>rough calcs say 34 hours for gdal2tiles to cut zoom 18</p>&mdash; joe larson (@oeon) <a href="https://twitter.com/oeon/statuses/376159617450901504">September 7, 2013</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+>joe larson @oeon
+>rough calcs say 34 hours for gdal2tiles to cut zoom 18
+
+*^temporary^ see [tweet](https://twitter.com/oeon/status/376159617450901504) since I can't embed without breaking Jekyll - yes, I tried [this](https://github.com/scottwb/jekyll-tweet-tag/issues/1) already :/*
 
 I started the job on a Friday night and sometime Monday it finished. 1.24 million .png tiles and 91 gigabytes later - done. By default zoom level ? - 18 were made.
 
