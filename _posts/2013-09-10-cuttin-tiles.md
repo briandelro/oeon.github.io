@@ -7,7 +7,7 @@ tags:
   - gdal
   - gdal2tiles
   - vrt
-published: true
+published: false
 ---
 
 {% include JB/setup %}
