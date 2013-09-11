@@ -3,7 +3,10 @@ published: true
 layout: post
 category: work
 tagline: "night-shifts"
-tags: "infrared-interpretation", "wildfire"
+tags:
+  - infrared interpretation
+  - wildfire
+  
 ---
 
 ![IR](http://farm4.staticflickr.com/3799/9548967970_02f185d5de.jpg)

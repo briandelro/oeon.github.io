@@ -3,7 +3,11 @@ layout: post
 title: "Homebrew QGIS, clean batch"
 description: "i finally got QGIS *HEAD* running on OS X"
 category: QGIS
-tags: [Homebrew, QGIS, OS X]
+tags:
+  - Homebrew
+  - QGIS
+  - OS X
+ 
 ---
 {% include JB/setup %}
 
