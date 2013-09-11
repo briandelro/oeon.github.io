@@ -1,7 +1,7 @@
 ---
 layout: post
 title: cuttin tiles
-description: ""
+tagline: "Dirty little tiles, rolled by hand, with free software."
 category: work
 tags: 
   - gdal
@@ -26,11 +26,14 @@ My local County acquired countywide 1-foot imagery. At work, we are often editin
 
 3. `mkdir tiles` make a folder for your output
 
-4. `gdal2tiles.py -v mergewarp.vrt tiles/` many options, see the [docs](http://www.gdal.org/gdal2tiles.html). You'll want to use `-e` if you need to stop/resume a job.
+4. `gdal2tiles.py -v mergewarp.vrt tiles/` many options, see the [docs](http://www.gdal.org/gdal2tiles.html). You'll want to use `-e` if you need to stop/resume a job (see below).  
 
+---
 
 >joe larson @oeon
->rough calcs say 34 hours for gdal2tiles to cut zoom 18
+>rough calcs say 34 hours for gdal2tiles to cut zoom 18 
+ 
+---
 
 *^temporary^ see [tweet](https://twitter.com/oeon/status/376159617450901504) since I can't embed without breaking Jekyll - yes, I tried [this](https://github.com/scottwb/jekyll-tweet-tag/issues/1) already :/*
 
@@ -42,10 +45,12 @@ Dirty little tiles, rolled by hand, with free software.
 
 <a href="http://www.flickr.com/photos/j03lar50n/9715500498/" title="Screen Shot 2013-09-09 at 8.22.17 PM by j03lar50n, on Flickr"><img src="http://farm3.staticflickr.com/2847/9715500498_d01aff3efa_c.jpg" width="800" height="530" alt="Screen Shot 2013-09-09 at 8.22.17 PM"></a>
 
-There were a few stragglers because some .tif were delievered in CA State Plane Zone V meters (instead of [EPSG:2229](spatialreference.org/ref/epsg/2229/) - feet!) but working to get the rest done.
+There were a few stragglers because some .tif's were delievered in CA State Plane Zone V meters (instead of [EPSG:2229](spatialreference.org/ref/epsg/2229/) - feet!) but working to get the rest done. Remember that `-e` flag for gdal2tiles I mentioned? Well, this is a situation where you'll need it. I need to delete all the tiles that were created with those nodata/white tiles and run it again, with that flag.
+
+<a href="http://www.flickr.com/photos/j03lar50n/9723873672/" title="vrt-e by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7357/9723873672_cf5e388970_o.gif" width="502" height="564" alt="vrt-e"></a>
 
 ### Final stats: 
-*coming soon*
+<a href="http://www.flickr.com/photos/j03lar50n/9723599817/" title="tiles_size by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7324/9723599817_2b332c7952_o.png" width="345" height="240" alt="tiles_size"></a>
 
 ###Final thoughts:
 - Might cut some lower zoom levels - up to 21? Wow, how long will that take?
