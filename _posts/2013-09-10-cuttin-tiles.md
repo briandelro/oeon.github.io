@@ -37,7 +37,7 @@ My local County acquired countywide 1-foot imagery. At work, we are often editin
 
 *^temporary^ see [tweet](https://twitter.com/oeon/status/376159617450901504) since I can't embed without breaking Jekyll - yes, I tried [this](https://github.com/scottwb/jekyll-tweet-tag/issues/1) already :/*
 
-I started the job on a Friday night and sometime Monday it finished. 1.24 million .png tiles and 91 gigabytes later - done. By default zoom level ? - 18 were made.
+I started the job on a Friday night and sometime Monday it finished. 1.24 million .png tiles and 91-ish gigabytes later - done! By default zoom level 7 - 18 were made.
 
 <a href="http://www.flickr.com/photos/the-consortium/7238535480/" title="House of the Faun by The Consortium, on Flickr"><img src="http://farm8.staticflickr.com/7076/7238535480_8d5d3cec86_m.jpg" width="240" height="180" alt="House of the Faun"></a>
 
@@ -55,7 +55,7 @@ There were a few stragglers because some .tif's were delievered in CA State Plan
 ###Final thoughts:
 - Might cut some lower zoom levels - up to 21? Wow, how long will that take?
 - Might try saving reducing the TMS total size by using something else (NAIP?) at the higher zoom levels.
-- I'm not sure how much compression at the early stages of the processing would effect the results, both quality and size.
+- I'm not sure how much compression at the early stages of the processing would effect the results, both quality and size. I am going to see how processing this same area but from MrSID format, will affect size/quality.
 - .vrt / VRT has come a long way. Just a couple years ago - I think it was just coming out and things like this weren't possible. Thanks FrankW!
 
 <a href="http://www.flickr.com/photos/robven/3134215506/" title="Alcazar Tiles 17 by roberto_venturini, on Flickr"><img src="http://farm4.staticflickr.com/3285/3134215506_6546eb79af.jpg" width="492" height="500" alt="Alcazar Tiles 17"></a>
