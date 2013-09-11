@@ -7,7 +7,7 @@ tags:
   - gdal
   - gdal2tiles
   - vrt
-
+published: true
 ---
 
 {% include JB/setup %}
@@ -22,7 +22,7 @@ My local County acquired countywide 1-foot imagery. At work, we are often editin
 
 1. `gdalbuildvrt merge.vrt *.tif` mosaic/merge all teh .tif files
 
-2. `gdalwarp -t_srs EPSG:3857 -dstnodata 0 merge.vrt mergewarp.vrt` warp them alls, `-dstnodata 0` worked to carry through the input nodata - [*i think*](http://trac.osgeo.org/gdal/wiki/UserDocs/GdalWarp)
+2. `gdalwarp -t_srs EPSG:3857 -dstnodata 0 -of VRT merge.vrt mergewarp.vrt` warp them alls, `-dstnodata 0` worked to carry through the input nodata - [*i think*](http://trac.osgeo.org/gdal/wiki/UserDocs/GdalWarp)
 
 3. `mkdir tiles` make a folder for your output
 
