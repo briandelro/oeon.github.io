@@ -33,3 +33,7 @@ for JOSM, use 'zoom' instead of 'z': `http://gis.yourcounty.ca.gov/arcgis/rest/s
 *I didn't need to specify image filetype in the URL* e.g. *.jpg* / *.png*
 
 So, if you have something like that available in your area - and it's better quality/resolution that Bing .. try out those custom sources templates as base imagery during your OpenStreetMap editing.
+
+**EDIT**: Ian Dees replied, "Another option is to use the WMS endpoint that ships with all MapServer instances with JOSM's WMS code
+
+OSM US can also proxy" see https://twitter.com/iandees/status/386150404737622016
