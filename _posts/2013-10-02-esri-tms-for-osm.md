@@ -22,7 +22,7 @@ I wanted to log my efforts connecting to an Esri ArcGIS Server (AGS) raster laye
   
 <p><a href="http://www.flickr.com/photos/j03lar50n/10079499413/" title="tiles_z19size_total by j03lar50n, on Flickr"><img src="http://farm8.staticflickr.com/7301/10079499413_728377cf85_o.jpg" width="237" height="73" alt="tiles_z19size_total"></a></p>
 
-Another option you may encounter is tiles available from an ArcGIS tile cache (is that the right term?) here's how I got there, provided your source also publishes in web mercator, EPSG 3857.
+Another option you may encounter is tiles available from an ArcGIS tile cache (is that the right term?). Here's how I got there, provided your source also publishes the imagery under an appropriate license & in web mercator, EPSG 3857.
 
 REST resource URL: `http://gis.yourcounty.ca.gov/arcgis/rest/services`
 
