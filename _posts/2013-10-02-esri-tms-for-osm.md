@@ -36,4 +36,4 @@ So, if you have something like that available in your area - and it's better qua
 
 **EDIT**: Ian Dees replied, "Another option is to use the WMS endpoint that ships with all MapServer instances with JOSM's WMS code
 
-OSM US can also proxy" see https://twitter.com/iandees/status/386150404737622016
+OSM US can also proxy" see [https://twitter.com/iandees/status/386150404737622016](https://twitter.com/iandees/status/386150404737622016)
