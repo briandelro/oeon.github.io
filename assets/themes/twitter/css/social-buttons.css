@@ -138,7 +138,7 @@
   background-color: #7e1116 \9;
 }
 
-.btn-linkedin {
+.btn-fa-linkedin {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #60a9ce;
@@ -155,19 +155,19 @@
   filter: progid:DXImageTransform.Microsoft.gradient(enabled=false);
 }
 
-.btn-linkedin:hover,
-.btn-linkedin:focus,
-.btn-linkedin:active,
-.btn-linkedin.active,
-.btn-linkedin.disabled,
-.btn-linkedin[disabled] {
+.btn-fa-linkedin:hover,
+.btn-fa-linkedin:focus,
+.btn-fa-linkedin:active,
+.btn-fa-linkedin.active,
+.btn-fa-linkedin.disabled,
+.btn-fa-linkedin[disabled] {
   color: #ffffff;
   background-color: #4393bb;
   *background-color: #3c84a8;
 }
 
-.btn-linkedin:active,
-.btn-linkedin.active {
+.btn-fa-linkedin:active,
+.btn-fa-linkedin.active {
   background-color: #367595 \9;
 }
 
